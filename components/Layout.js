@@ -17,7 +17,7 @@ const Layout = ({ title, keywords, description, children }) => {
 };
 
 Layout.defaultProps = {
-  title: "Stefan's Blog",
+  title: "Blog Posts | Stefan Djikic",
   keywords: "development, programming, coding, javascript, react, frontend",
   description: "Tutorials, guides and tips about web development",
   // Everything you want to know about web development (but you are to afraid to ask on stackoverflow)

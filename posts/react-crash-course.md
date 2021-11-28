@@ -1,11 +1,11 @@
 ---
 title: 'React Crash Course'
 date: 'May 8, 2021'
-excerpt: 'Crash course to learn the React JavaScript library. We will look at components, hooks and more'
-cover_image: '/images/posts/react-crash-course.jpg'
-category: 'JavaScript'
-author: 'Stefan Djikic'
-author_image: 'https://randomuser.me/api/portraits/women/11.jpg'
+description: 'Crash course to learn the React JavaScript library. We will look at components, hooks and more'
+cover_image: '/images/react-crash-course.jpg'
+category: 'React'
+author: 'Stefan Dj.'
+author_image: '/images/stefan.jpg'
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->

@@ -1,11 +1,11 @@
 ---
 title: 'JavaScript Performance Tips'
 date: 'May 4, 2021'
-excerpt: 'We will look at 10 simple tips and tricks to increase the speed of your code when writing JS'
-cover_image: '/images/posts/javascript-performance-tips.jpg'
+description: 'We will look at 10 simple tips and tricks to increase the speed of your code when writing JS'
+cover_image: '/images/javascript-performance-tips.jpg'
 category: 'JavaScript'
-author: 'Stefan Djikic'
-author_image: 'https://randomuser.me/api/portraits/men/11.jpg'
+author: 'Stefan Dj.'
+author_image: '/images/stefan.jpg'
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->

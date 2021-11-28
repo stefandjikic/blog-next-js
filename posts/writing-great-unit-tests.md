@@ -1,11 +1,11 @@
 ---
 title: 'Writing Great Unit Tests'
 date: 'May 12, 2021'
-excerpt: 'We will look at 10 simple tips and tricks on writing unit tests in JavaScript'
-cover_image: '/images/posts/unit-testing.jpg'
-category: 'JavaScript'
-author: 'Stefan Djikic'
-author_image: 'https://randomuser.me/api/portraits/men/11.jpg'
+description: 'We will look at 10 simple tips and tricks on writing unit tests in JavaScript'
+cover_image: '/images/unit-testing.jpg'
+category: 'Testing'
+author: 'Stefan Dj.'
+author_image: '/images/stefan.jpg'
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->

@@ -1,7 +1,11 @@
 ---
 title: "Post One"
-data:  "November 23, 2021"
-author: "Stefan Djikic"
+date:  "November 23, 2021"
+description: 'My first blog post'
+category: "General"
+cover_image: '/images/javascript-performance-tips.jpg'
+author: "Stefan Dj."
+author_image: '/images/stefan.jpg'
 ---
 
 <!-- Frontmatter (fields) - top of the file -->

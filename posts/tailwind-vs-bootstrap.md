@@ -1,11 +1,11 @@
 ---
 title: 'Tailwind vs. Bootstrap'
 date: 'May 5, 2021'
-excerpt: 'Both Tailwind and Bootstrap are very popular CSS frameworks. In this article, we will compare them'
-cover_image: '/images/posts/tailwind-vs-bootstrap.jpg'
+description: 'Both Tailwind and Bootstrap are very popular CSS frameworks. In this article, we will compare them'
+cover_image: '/images/tailwind-vs-bootstrap.jpg'
 category: 'CSS'
-author: 'Stefan Djikic'
-author_image: 'https://randomuser.me/api/portraits/women/11.jpg'
+author: 'Stefan Dj'
+author_image: '/images/stefan.jpg'
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->
