@@ -39,7 +39,7 @@ export async function getStaticProps() {
       frontMatter,
     };
   });
-  console.log(posts);
+
   return {
     props: {
       posts: posts.sort(sortByDate).slice(0, 3),

@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.blog-text p {
+  margin: 15px 0;
+  line-height: 1.8;
+}
+
+.blog-text a {
+  color: rgb(49, 49, 180);
+}
+
+.blog-text ul,
+.blog-text ol {
+  font-size: 105%;
+  line-height: 2;
+  margin:  6px 0;
+  list-style-type: disc;
+}
+
+
+.blog-text pre {
+  background: #f4f4f4;
+  /* background: rgb(29, 27, 27); */
+  /* color: #fff; */
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2;
+}
+
+.blog-text h1 {
+  font-size: 35px;
+}
+
+.blog-text h2,
+.blog-text h3,
+.blog-text h4 {
+  font-size: 26px;
+}
