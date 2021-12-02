@@ -4,8 +4,8 @@ import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
 // import Image from "next/image";
-import Layout from "../../components/Layout";
-import CategoryLabel from "../../components/CategoryLabel";
+import Layout from "components/Layout";
+import CategoryLabel from "components/CategoryLabel";
 
 const PostPage = ({
   frontMatter: { title, category, date, cover_image, author, author_image },
