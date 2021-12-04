@@ -27,7 +27,7 @@ const Pagination = ({ currentPage, numberOfPages }) => {
         )}
 
         {Array.from({length: numberOfPages}, (_, i) => (
-          <Link href={`/blog/page/${i + 1}`}>
+          <Link key={i} href={`/blog/page/${i + 1}`}>
              <a 
               onClick={() => setActiveLink(i+1)}
               className={`bg-gray-100 py-1 px-2 cursor-pointer 

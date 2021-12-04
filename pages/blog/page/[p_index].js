@@ -1,23 +1,34 @@
 import fs from "fs";
 import path from "path";
-// import Link from "next/link";
-import matter from "gray-matter";
 import Layout from "components/Layout";
 import Post from "components/Post";
 import Pagination from "components/Pagination";
-import { sortByDate } from "utils";
+import CategorySidebar from "components/CategorySidebar";
+import { getPosts } from "lib/posts";
 import { POSTS_PER_PAGE } from "config";
 
-export default function BlogPage({ posts, numberOfPages, currentPage }) {
+export default function BlogPage({
+  posts,
+  numberOfPages,
+  currentPage,
+  categories,
+}) {
   return (
     <Layout title="Home Page | Stefan Djikic">
       <h1 className="text-4xl font-bold border-b-2 p-3">Blog</h1>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
-        {posts.map((post, i) => (
-          <Post key={i} post={post} />
-        ))}
+      <div className="flex">
+        <div className="w-4/5 mr-10">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+            {posts.map((post, i) => (
+              <Post key={i} post={post} />
+            ))}
+          </div>
+          <Pagination currentPage={currentPage} numberOfPages={numberOfPages} />
+        </div>
+        <div className="w-1/5">
+          <CategorySidebar categories={categories} />
+        </div>
       </div>
-      <Pagination currentPage={currentPage} numberOfPages={numberOfPages} />
     </Layout>
   );
 }
@@ -44,28 +55,25 @@ export async function getStaticProps({ params }) {
 
   const files = fs.readdirSync(path.join("posts"));
 
-  const posts = files.map((filename) => {
-    const slug = filename.replace(".md", "");
-    const markdown = fs.readFileSync(path.join("posts", filename), "utf-8");
-    const { data: frontMatter } = matter(markdown);
-    return {
-      slug,
-      frontMatter,
-    };
-  });
+  const posts = getPosts();
+
+  const categoriesFromPosts = posts.map((post) => post.frontMatter.category);
+  const uniqueCategories = [...new Set(categoriesFromPosts)];
 
   const numberOfPages = Math.ceil(files.length / POSTS_PER_PAGE);
   const pageIndex = currentPage - 1;
 
-  const sortedPostsPerPage = posts
-    .sort(sortByDate)
-    .slice(pageIndex * POSTS_PER_PAGE, (pageIndex + 1) * POSTS_PER_PAGE);
+  const sortedPostsPerPage = posts.slice(
+    pageIndex * POSTS_PER_PAGE,
+    (pageIndex + 1) * POSTS_PER_PAGE
+  );
 
   return {
     props: {
       posts: sortedPostsPerPage,
       numberOfPages,
       currentPage,
+      categories: uniqueCategories,
     },
   };
 }
