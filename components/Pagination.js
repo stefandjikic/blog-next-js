@@ -16,6 +16,7 @@ const Pagination = ({ currentPage, numberOfPages }) => {
         {!firstPage && (
           <Link href={prevPage}>
             <a
+              onClick={() => setActiveLink(currentPage - 1)}
               className="bg-gray-100 py-1 px-3 cursor-pointer 
               border text-gray-600 font-medium text-xs mr-1 
               hover:bg-gray-200 rounded "
@@ -41,6 +42,7 @@ const Pagination = ({ currentPage, numberOfPages }) => {
         {!lastPatge && (
           <Link href={nextPage}>
             <a
+              onClick={() => setActiveLink(currentPage + 1)}
               className="bg-gray-100 py-1 px-3 cursor-pointer 
               border text-gray-700 font-medium text-xs 
               hover:bg-gray-200 rounded "
