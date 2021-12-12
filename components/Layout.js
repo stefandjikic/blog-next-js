@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Navbar from "./Navbar";
+import Search from "./Search";
 
-const Layout = ({ title, keywords, description, children }) => {
+const Layout = ({ title, keywords, description, children, hasSearch }) => {
   return (
     <div>
       <Head>
@@ -11,7 +12,8 @@ const Layout = ({ title, keywords, description, children }) => {
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <Navbar />
-      <main className='container mx-auto my-8 md: px-3'>{children}</main>
+      {hasSearch && <Search />}
+      <main className={`container mx-auto ${hasSearch ? 'mt-1 mb-8' : 'my-8'} md: px-3`}>{children}</main>
     </div>
   );
 };

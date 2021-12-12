@@ -8,7 +8,7 @@ import { getPosts } from "lib/posts";
 
 export default function BlogCategoryPage({ posts, categoryName, categories }) {
   return (
-    <Layout title="Home Page | Stefan Djikic">
+    <Layout hasSearch title="Home Page | Stefan Djikic">
       <h1 className="text-4xl font-bold border-b-2 p-3">
         {categoryName.toUpperCase()}
       </h1>

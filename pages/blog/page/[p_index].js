@@ -14,7 +14,7 @@ export default function BlogPage({
   categories,
 }) {
   return (
-    <Layout title="Home Page | Stefan Djikic">
+    <Layout hasSearch title="Home Page | Stefan Djikic">
       <h1 className="text-4xl font-bold border-b-2 p-3">Blog</h1>
       <div className="flex">
         <div className="w-4/5 mr-10">
