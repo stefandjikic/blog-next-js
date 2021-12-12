@@ -33,6 +33,16 @@
   font-size: 0.9rem;
 }
 
+.blog-text code {
+  background: #f4f4f4;
+  padding: 0.5rem;
+}
+
+.blog-text pre code {
+  background: initial;
+  pad: initial;
+}
+
 .blog-text h1 {
   font-size: 35px;
 }
