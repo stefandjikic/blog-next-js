@@ -12,15 +12,15 @@ export default function BlogCategoryPage({ posts, categoryName, categories }) {
       <h1 className="text-4xl font-bold border-b-2 p-3">
         {categoryName.toUpperCase()}
       </h1>
-      <div className="flex">
-        <div className="w-4/5 mr-10">
+      <div className="flex flex-col md:flex-row">
+        <div className="w-full md:w-4/5 order-2 md:order-1 mr-10">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
             {posts.map((post, i) => (
               <Post key={i} post={post} />
             ))}
           </div>
         </div>
-        <div className="w-1/5">
+        <div className="w-full md:w-1/5 order-1 md:order-2">
           <CategorySidebar categoryName={categoryName} categories={categories} />
         </div>
       </div>

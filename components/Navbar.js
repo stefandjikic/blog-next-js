@@ -9,7 +9,7 @@ const Navbar = () => {
     <header className="bg-gray-900 text-gray-50">
       <div className="container mx-auto flex flex-col md:flex-row py-6 md: px-3">
         <Link href="/">
-          <a className="sm:flex">
+          <a className="flex">
             <p className="font-bold">Stefan Dj.</p>
             <span className="text-yellow-500 mx-2">&#60;&#47;&#62;</span>
           </a>

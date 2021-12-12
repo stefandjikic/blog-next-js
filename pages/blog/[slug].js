@@ -17,8 +17,8 @@ const PostPage = ({
 }) => {
   return (
     <Layout title={title}>
-      <div className="flex">
-        <div className="w-3/4 mr-10 bg-white rounded-lg shadow-md px-10 py-4 mt-6">
+      <div className="flex flex-col md:flex-row">
+        <div className="w-full md:w-3/4 mr-10 bg-white rounded-lg shadow-md px-10 py-4 mt-6">
           <img src={cover_image} alt={title} className="w-full rounded" />
           <div className="bg-gray-50 p-3 mt-4 rounded">
             <h1 className="text-4xl my-2">{title}</h1>
@@ -43,7 +43,7 @@ const PostPage = ({
             ></div>
           </div>
         </div>
-        <div className="w-1/4 mt-6">
+        <div className="w-full md:w-1/4 mt-6">
           <h3 className="font-bold mt-4 mb-6">Latest Articles</h3>
           <div>
             {latestPosts && latestPosts?.map((post, i) => (

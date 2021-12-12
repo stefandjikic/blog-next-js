@@ -16,8 +16,8 @@ export default function BlogPage({
   return (
     <Layout hasSearch title="Home Page | Stefan Djikic">
       <h1 className="text-4xl font-bold border-b-2 p-3">Blog</h1>
-      <div className="flex">
-        <div className="w-4/5 mr-10">
+      <div className="flex flex-col md:flex-row">
+        <div className="w-full md:w-4/5 order-2 md:order-1 mr-10">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
             {posts.map((post, i) => (
               <Post key={i} post={post} />
@@ -25,7 +25,7 @@ export default function BlogPage({
           </div>
           <Pagination currentPage={currentPage} numberOfPages={numberOfPages} />
         </div>
-        <div className="w-1/5">
+        <div className="w-full order-1 md:order-2 md:w-1/5">
           <CategorySidebar categories={categories} />
         </div>
       </div>
