@@ -9,10 +9,12 @@ export default function handler(req, res) {
   } else {
     const files = fs.readdirSync(path.join("posts"));
     posts = files.map((filename) => {
+      const slug = filename.replace('.md', '');
       const markdown = fs.readFileSync(path.join("posts", filename), "utf-8");
       const { data: frontMatter } = matter(markdown);
 
       return {
+        slug,
         frontMatter,
       };
     });
