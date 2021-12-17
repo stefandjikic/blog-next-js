@@ -5,7 +5,6 @@ import matter from "gray-matter";
 export default function handler(req, res) {
   let posts;
   if (process.env.NODE_ENV === "production") {
-    console.log('production')
     posts = require("../../cache/data").posts;
   } else {
     const files = fs.readdirSync(path.join("posts"));

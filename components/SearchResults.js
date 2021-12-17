@@ -5,7 +5,7 @@ const SearchResults = ({ results }) => {
   if (results.length !== 0)
     return (
       <div
-        className="absolute z-10 top-64 right-0 md:right-4 md:top-36
+        className="absolute z-10 top-56 right-0 md:right-4 md:top-36
       border bg-white text-gray-800 w-full
       md:w-6/12 rounded"
       >

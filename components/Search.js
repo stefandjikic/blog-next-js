@@ -11,9 +11,8 @@ const Search = () => {
       if (searchValue === '') {
         setSearchResults([]);
       } else {
-        const res = await fetch(`/api/search?value=${searchValue}`);
+        const res = await fetch(`/api/search?value=${searchValue.toLowerCase()}`);
         const { results } = await res.json();
-        console.log(results)
         setSearchResults(results);
       }
     }
