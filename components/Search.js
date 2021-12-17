@@ -26,12 +26,12 @@ const Search = () => {
           <input
             type="search"
             name="search"
-            className="border border-gray-300 h-10 px-3 rounded text-sm w-72 focus:outline-none focus:border-yellow-600"
+            className="border border-gray-300 h-10 pl-9 pr-2 rounded text-sm w-72 focus:outline-none focus:border-yellow-600"
             value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
             placeholder="Search posts..."
           />
-          <FaSearch className="absolute top-0 right-0 mt-3 mr-3" />
+          <FaSearch className="absolute top-0 left-0 mt-3 ml-3" />
         </form>
       </div>
 

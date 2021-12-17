@@ -52,3 +52,23 @@
 .blog-text h4 {
   font-size: 26px;
 }
+
+.bg-js_custom {
+  background: #FACC15;
+}
+
+.bg-react_custom {
+  background: #61dbfb;
+}
+
+.bg-css_custom {
+  background: #0370B9;
+}
+
+.bg-testing_custom {
+  background: #681929;
+}
+
+.bg-general_custom {
+  background: #09151d;
+}
