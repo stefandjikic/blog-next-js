@@ -5,7 +5,7 @@ description: 'My first blog post'
 category: "General"
 cover_image: '/images/javascript-performance-tips.jpg'
 author: "Stefan Dj."
-author_image: '/images/stefan.jpg'
+author_image: '/images/stefan-profile.jpg'
 ---
 
 <!-- Frontmatter (fields) - top of the file -->

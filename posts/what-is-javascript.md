@@ -5,7 +5,7 @@ description: 'Basic introduction, overview, and history of JavaScript programmin
 cover_image: '/images/js-image.png'
 category: 'JavaScript'
 author: 'Stefan Dj.'
-author_image: '/images/stefan.jpg'
+author_image: '/images/stefan-profile.jpg'
 ---
 
 JavaScript is a programming language that is originally created to interact with elements of web pages. It is one of the core technologies of the World Wide Web, alongside HTML and CSS. Currently, around <a href="https://w3techs.com/technologies/details/cp-javascript/" target="_blank" rel="noopener"><span>98% of websites</span> </a> use javascript as a client-side programming language.

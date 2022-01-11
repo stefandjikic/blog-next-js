@@ -5,7 +5,7 @@ description: 'We will look at 10 simple tips and tricks to increase the speed of
 cover_image: '/images/javascript-performance-tips.jpg'
 category: 'JavaScript'
 author: 'Stefan Dj.'
-author_image: '/images/stefan.jpg'
+author_image: '/images/stefan-profile.jpg'
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->
