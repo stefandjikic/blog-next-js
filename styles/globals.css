@@ -13,9 +13,8 @@
 
 .blog-text ul,
 .blog-text ol {
-  font-size: 105%;
   line-height: 2;
-  margin:  6px 0;
+  margin:  10px 0 15px 20px;
   list-style-type: disc;
 }
 
