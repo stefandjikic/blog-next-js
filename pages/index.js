@@ -15,7 +15,7 @@ export default function HomePage({ posts }) {
       </div>
 
       <Link href="/blog">
-        <a className="block text-center border py-4 mt-10 border-gray-500
+        <a className="block w-60 m-auto text-center border py-4 mt-10 border-gray-500
           rounded-md text-gray-800 hover:text-gray-50 hover:bg-gray-900 
           transition duration-300 ease select-none">
           All Posts

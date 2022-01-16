@@ -17,8 +17,11 @@ const AboutPage = () => {
         <div className="mt-4 w-full sm:w-3/4 sm:ml-8 sm:mt-0">
           <h2 className="text-xl mb-4">Stefan&apos;s Blog</h2>
           <p className="mb-2">
-            Hi! My name is Stefan Đikić and I am a frontend developer experienced
-            in building various websites and web applications.
+            Hi! My name is Stefan Đikić and I am a frontend developer at{" "}
+            <a className="underline" href="https://k7tech.agency/" target="_blank" rel="noreferrer">
+              K7 Tech Agency
+            </a>
+            .
           </p>
           <p>
             In this blog, I&apos;ll be writing mostly about JavaScript and
