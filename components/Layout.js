@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "./Navbar";
 import Search from "./Search";
+import Footer from "./Footer";
 
 const Layout = ({ title, keywords, description, children, hasSearch }) => {
   return (
@@ -14,6 +15,7 @@ const Layout = ({ title, keywords, description, children, hasSearch }) => {
       <Navbar />
       {hasSearch && <Search />}
       <main className={`container mx-auto ${hasSearch ? 'mt-1 mb-8' : 'my-8'} md: px-3`}>{children}</main>
+      <Footer />
     </div>
   );
 };
