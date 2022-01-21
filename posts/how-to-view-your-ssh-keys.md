@@ -2,7 +2,7 @@
 title: 'How to view your SSH keys'
 date: 'Jan 15, 2022'
 description: 'Walkthrough on how to view your SSH certificates on macOS, Windows and Linux'
-cover_image: '/images/computer-ssh.jpg'
+cover_image: '/images/internet-ssh.jpg'
 category: 'General'
 author: 'Stefan Dj.'
 author_image: '/images/stefan-profile.jpg'
