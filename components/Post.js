@@ -32,11 +32,11 @@ const Post = ({ post, searchPost }) => {
       </div>
       <div className="mt-2">
         <Link href={`/blog/${slug}`}>
-          <a className="font-bold text-gray-700 hover:text-yellow-500">
+          <a className="post-card-title font-bold text-gray-700 hover:text-yellow-500">
             {title}
           </a>
         </Link>
-        <p className="mt-2 text-gray-600 h-20">{description}</p>
+        <p className="post-card-description mt-2 text-gray-600 h-20">{description}</p>
       </div>
       {!searchPost && (
         <div className="flex justify-between items-center mt-5">

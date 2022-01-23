@@ -27,7 +27,7 @@
   word-wrap: break-word;
   text-align: justify;
   padding: 20px;
-  margin: 20px 0;
+  margin: 40px 0;
   line-height: 2;
   font-size: 0.9rem;
 }
@@ -46,11 +46,26 @@
   font-size: 35px;
 }
 
+.blog-text h2 {
+  font-size: 28px;
+}
+
+.blog-text h3 {
+  font-size: 26px;
+}
+
+.blog-text h4 {
+  font-size: 24px;
+}
+
 .blog-text h2,
 .blog-text h3,
 .blog-text h4 {
-  font-size: 26px;
   font-weight: 600;
+}
+
+.blog-text img {
+  margin: 40px 0;
 }
 
 .bg-js_custom {
@@ -71,4 +86,13 @@
 
 .bg-general_custom {
   background: #09151d;
+}
+
+.post-card-title {
+  min-height: 50px;
+  display: block;
+}
+
+.post-card-description {
+  min-height: 80px;
 }

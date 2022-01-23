@@ -5,7 +5,7 @@ description: 'Learn how to create Private, Public and Restricted route with reac
 cover_image: '/images/react-crash-course.jpg'
 category: 'React'
 author: 'Stefan Dj.'
-author_image: '/images/stefan.jpg'
+author_image: '/images/stefan-profile.jpg'
 ---
 
 React Router is a fully-featured client and server-side routing library for React. It enables the navigation among views in a React application, allows changing the browser URL, and keeps the UI in sync with the URL.
