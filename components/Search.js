@@ -27,6 +27,7 @@ const Search = () => {
             name="search"
             className="border border-gray-300 h-10 pl-9 pr-2 rounded text-sm w-72 focus:outline-none focus:border-yellow-600"
             value={searchValue}
+            autoComplete="off"
             onChange={(e) => setSearchValue(e.target.value)}
             placeholder="Search posts..."
           />
