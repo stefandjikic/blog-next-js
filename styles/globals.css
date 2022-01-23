@@ -23,13 +23,14 @@
   /* background: #f4f4f4; */
   background: rgb(29, 27, 27);
   color: #fff;
-  white-space: pre-wrap;
-  word-wrap: break-word;
+  /* white-space: pre-wrap;
+  word-wrap: break-word; */
   text-align: justify;
   padding: 20px;
   margin: 40px 0;
   line-height: 2;
   font-size: 0.9rem;
+  overflow-x: scroll;
 }
 
 .blog-text code {
