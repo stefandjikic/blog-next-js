@@ -16,25 +16,50 @@ const AboutPage = () => {
         />
         <div className="mt-4 w-full sm:w-3/4 sm:ml-8 sm:mt-0">
           <h2 className="text-xl mb-4">Stefan&apos;s Blog</h2>
-          <p className="mb-2">
-            Hi! My name is Stefan Đikić and I am a frontend developer at{" "}
-            <a className="underline" href="https://k7tech.agency/" target="_blank" rel="noreferrer">
-              K7 Tech Agency
+          <p className="mb-4">
+            I am a passionate Frontend Developer with a focus on creating
+            engaging and intuitive web applications. With a solid background in
+            web development, I bring mock-ups to life using cutting-edge
+            technologies such as React, React Native and Next.js.
+          </p>
+          <p className="pb-4">
+            For the past three years, I have been dedicated to honing my skills
+            and contributing to the success of{" "}
+            <a
+              className="underline"
+              href="https://k7tech.agency/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              K7 Tech
             </a>
-            .
+            . As a Full-time Frontend Developer, I have played a key role in
+            building stable and scalable web apps. My expertise in JavaScript,
+            React.js, Next.js, and React Native has allowed me to seamlessly
+            implement design and development principles, resulting in
+            exceptional user experiences.
+          </p>
+          <p className="pb-4">
+            In addition to my work at K7 Tech, I am currently serving as a
+            Frontend Development Course Lecturer at{" "}
+            <a
+              className="underline"
+              href="https://code.edu.rs/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Code by Comtrade
+            </a>
+            . In this role, I have the privilege of sharing my knowledge and
+            expertise with aspiring developers, helping them acquire the skills
+            necessary for a successful career in web development.
           </p>
           <p>
-            In this blog, I&apos;ll be writing mostly about JavaScript and
-            popular frontend frameworks and libraries such as React or Next, but
-            also about some basics that every developer should know about HTML
-            and CSS. My main goal is progressing to a full-stack developer, so
-            I&apos;ll try to include some articles about Node.js and backend, as
-            I learn and progress, and other programming-related topics as well.
-          </p>
-          <p>
-            The idea behind the blog, among sharing knowledge with others, is to
-            help me sharpen my written communication skills and stay up to date
-            with the industry standards.
+            I am constantly seeking opportunities to expand my knowledge and
+            stay up-to-date with the latest industry trends. I thrive in
+            collaborative environments, where I can leverage my strong
+            communication and problem-solving skills to deliver exceptional
+            results.
           </p>
         </div>
       </div>
